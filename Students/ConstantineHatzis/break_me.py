@@ -18,9 +18,9 @@ def breakAttribute():
 
 #  Cause SyntaxError exception
 def breakSyntax():
-    pass
+    eval("abs(pass)")
 
 breakName()
 breakType()
 breakAttribute()
-breakSyntax)
+breakSyntax()
