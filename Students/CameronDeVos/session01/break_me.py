@@ -21,8 +21,17 @@ def createSyntaxError():
 	c = 5555
 	reurn c
 
+# Create a AttributeError
+# Float object does not have a length attribute
+
+def createAttributeError():
+	a = 5.3
+	return a.length
+
+
 # Function Testing
 
 # createNameError()
 # createTypeError()
 # createSyntaxError()
+# createAttributeError()
