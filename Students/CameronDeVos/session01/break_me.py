@@ -14,9 +14,15 @@ def createTypeError():
 	b = "foo"
 	return a + b
 
+# Create a SyntaxError
+# return is spelled incorrectly
 
+def createSyntaxError():
+	c = 5555
+	reurn c
 
 # Function Testing
 
 # createNameError()
 # createTypeError()
+# createSyntaxError()
