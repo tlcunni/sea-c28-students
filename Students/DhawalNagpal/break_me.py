@@ -11,3 +11,7 @@ def cube(n):
     return n ** 3
 
 #print cube('ggh')
+
+# For SyntaxError, please "uncomment" line 16, to fix it add : 
+#def multiple (a, b)
+#    return a * b
