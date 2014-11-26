@@ -15,3 +15,9 @@ def cube(n):
 # For SyntaxError, please "uncomment" line 16, to fix it add : 
 #def multiple (a, b)
 #    return a * b
+
+def lowerCase(a):
+    return a.lower()
+
+# For AttributeError, please "uncomment" line 23
+# print lowerCase (2)
