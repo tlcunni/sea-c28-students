@@ -6,7 +6,17 @@
 def createNameError():
 	return nameerrors
 
+# Create a TypeError
+# Cannot add a int and str together because they are different types
+
+def createTypeError():
+	a = 5
+	b = "foo"
+	return a + b
 
 
 
-#createNameError()
+# Function Testing
+
+# createNameError()
+# createTypeError()
