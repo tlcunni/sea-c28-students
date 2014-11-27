@@ -4,8 +4,9 @@
 #print(b+f)
 
 #Problem 2 - Type Error
-c = 1
-d = str(u"bobbby")
-print(c-d)
+#c = 1
+#d = str(u"bobbby")
+#print(c-d)
 
-
+#Problem 3 - Syntax Error
+make me a sandwich
