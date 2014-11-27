@@ -5,4 +5,4 @@ Not so much these days.
 I still think violin is awesome, but I don't do that anymore.  
 I am a shameless musical drop-out, and instead of doing music,  
 I spent the last year baking.  
-[...here's a link.](www.google.com)
+[...here's a link.](http://www.google.com)
