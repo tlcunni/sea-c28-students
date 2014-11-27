@@ -12,7 +12,7 @@ def attr_error():
 	bar = 2
 	bar.slice(1,3)
 
-#syntax error, if and elif statements need :
+#syntax error, open string inside print function
 def syntax_error():
 	print('test = 'bad syntax")
 
