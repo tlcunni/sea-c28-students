@@ -9,4 +9,14 @@
 #print(c-d)
 
 #Problem 3 - Syntax Error
-make me a sandwich
+#make me a sandwich
+
+#Problem 4 - Attribute Error
+thingy = 4
+thingy.append(bob) #failharder
+
+
+
+
+
+
