@@ -1,21 +1,18 @@
 #name error, foo not defined
-def name_error:
+def name_error():
 	print(foo)
 
 #type error, cannot add to a string
-def type_error:
+def type_error():
 	foo = "bar"
 	foo = foo + 5
 
 #attribute error, cannot slice an int
-def attr_error:
+def attr_error():
 	bar = 2
 	bar.slice(1,3)
 
 #syntax error, if and elif statements need :
-def syntax_error:
-	if 
-		pass
-	elif
-		pass
+def syntax_error():
+	print('test = 'bad syntax")
 
