@@ -16,6 +16,21 @@ def fibonacci(n):
         return series[-1]
     """
 
+#for x in range(1, 21):
+#    print fibonacci(x),
 
-for x in range(1, 21):
-    print fibonacci(x),
+    
+def lucas(n):
+    """Return the nth value of the Lucas number series."""
+    series = [2, 1]
+	
+    if n <= 2:
+        return series[n-1]
+    else:
+        for x in range(n-2):
+            series[0], series[1] = series[1], series[0]
+            series[1] = series[0] + series[1]
+        return series[1]
+
+#for x in range(1, 21):
+#    print lucas(x),
