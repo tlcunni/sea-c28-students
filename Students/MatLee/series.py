@@ -2,13 +2,6 @@ def fibonacci(n):
     """Return the nth value of the Fibonacci series."""
     
     return sum_series(n)
-    
-    """
-        #alternate method
-        while len(series) < n:
-            series.append(series[-2] + series[-1])
-        return series[-1]
-    """
 
     
 def lucas(n):
@@ -57,4 +50,3 @@ if __name__ == "__main__":
     
     #check if the function returns None for negative values of n
     assert sum_series(-1) == None
-    
