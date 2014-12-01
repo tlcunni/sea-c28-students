@@ -5,9 +5,11 @@ def cheese
 def chedder():
     if a>0:
         return x
+#NameError
 
 def echidna():
     print "Hello" + 5
+#TypeError
 
 def gauda(m,n):
     return m.x
