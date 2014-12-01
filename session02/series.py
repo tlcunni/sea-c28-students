@@ -1,15 +1,24 @@
-#def fibonacci(n):
-#	ranger = range(n)
-#	for number in ranger:
-#		print number + number-1
-
 def fibonacci(n):
+	"""Return "nth" value in the Fibonacci series"""
 	a , b = 0,1
-	while a<n:
-		print a,
+	for i in range(n):
 		a, b = b, a+b
+	print a
 
-fibonacci(101)
+#fibonacci(9)
 
-def lucas(n=2,m=1):
-	range(n)
+def lucas(n):
+	"""Return "nth" value in the Lucas string"""
+	a , b = 2, 1
+	for i in range(n):
+		a, b = b, a+b
+	print a
+
+#lucas(101)
+
+def sum_series(n,a=0,b=1):
+	for i in range(n):
+		a, b = b, a+b
+	print a
+
+sum_series(9)
