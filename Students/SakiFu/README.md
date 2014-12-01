@@ -1,19 +1,19 @@
-<h1>Saki Fu</h1>
+#Saki Fu
 
-<h2>Background</h2>
+##Background
 
-<p> I'm from Sapporo, a nothern island of Japan. It's like Alaska of Japan. We have plenty of seafood there and best sushi in the world.</p>
+I'm from Sapporo, a nothern island of Japan. It's like Alaska of Japan. We have plenty of seafood there and best sushi in the world.
 
-<p> I've been living in Seattle for about 4 years. </p>
+I've been living in Seattle for about 4 years. 
 
-<h2>Hobby</h2>
+##Hobby
 
-<p>Meeting new people, exercising, watching anime, learning, fashion, languages etc.</p>
+Meeting new people, exercising, watching anime, learning, fashion, languages etc.
 
-<h2>Obsession</h2>
-<h3>Naked Mole Rat</h3>
+##Obsession##
+###Naked Mole Rat###
 
-<p>I love naked mole rat!!! Pacific Science Center has NMR exhibition so I had to get a year pass. I've been visiting them every week. You can see how cute they are by <a href = "http://www.pacificsciencecenter.org/Life-Sciences/naked-mole-rat-cam"> Naked Mole Rat Cam</a>!</p>
+I love naked mole rat!!! Pacific Science Center has NMR exhibition so I had to get a year pass. I've been visiting them every week. You can see how cute they are by [Naked Mole Rat Cam](http://www.pacificsciencecenter.org/Life-Sciences/naked-mole-rat-cam).
 
 
 
