@@ -85,9 +85,14 @@ for i in FRUIT:
 	question = "Do you like %s   " %i
 	answer = raw_input(question) 
 	if answer == "yes":
-		pass
+		continue
 	if answer == "no":
 		FRUIT.remove(i)
+		continue
 	else:
 		answer = raw_input("Please answer yes or no  ")
+		continue
+
+for _ in FRUIT:
+	print _
 
