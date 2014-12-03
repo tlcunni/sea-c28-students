@@ -31,8 +31,19 @@ print ""
 print ''
 
 
-
 FRUIT.insert(0,u"Bananna")
 	
 for _ in FRUIT:
 	print _
+
+print ""
+print ""
+
+for i in FRUIT:
+	if 'P' == i[0]:
+		print i
+	if 'p' == i[0]:
+		print i
+
+		
+
