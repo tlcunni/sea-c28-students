@@ -81,18 +81,34 @@ for _ in FRUIT:
 print ''
 print ''
 
-for i in FRUIT:
-	question = "Do you like %s   " %i
-	answer = raw_input(question) 
-	if answer == "yes":
-		continue
-	if answer == "no":
-		FRUIT.remove(i)
-		continue
-	else:
-		answer = raw_input("Please answer yes or no  ")
-		continue
+#for i in FRUIT:
+#	question = "Do you like %s   " %i
+#	answer = raw_input(question) 
+#	while answer == not "yes" or "no":
+#		print "Please answer yes or no"
+#		answer = raw_input(question)
+#	if answer == "yes":
+#		continue
+#	if answer == "no":
+#		FRUIT.remove(i)
+#		continue
+#	else:
+#		answer = raw_input("Please answer yes or no  ")
+#		continue
 
-for _ in FRUIT:
-	print _
+#for _ in FRUIT:
+#	print _
 
+def qanda(thing):
+	question = ("Do you like %s?  ") %thing[0]
+	answer = raw_input(question)
+	#while answer != 'yes' or 'no':
+	#	print "Please answer yes or no"
+	#	answer = raw_input(question)
+	if answer == 'yes':
+		thing.append[list[0]
+		thing.pop(0)
+	print thing
+
+
+qanda(FRUIT)
