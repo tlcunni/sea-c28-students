@@ -1,4 +1,4 @@
-#(!/usr/bin/env python)
+#!/usr/bin/env python
 #from__future__import print__function
 
 FRUIT = [u'Apples', u'Pears',u'Oranges',u'Peaches']
@@ -81,7 +81,7 @@ for _ in FRUIT:
 print ''
 print ''
 
-for i in FRUIT:
+for i in FRUIT[:]:
 	question = "Do you like %s   " %i
 	answer = raw_input(question) 
 	while answer != "yes" and answer != "no":
